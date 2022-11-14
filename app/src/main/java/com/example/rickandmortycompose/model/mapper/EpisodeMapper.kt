@@ -15,7 +15,7 @@ class EpisodeMapper : Mapper<EpisodeDTO, Episode> {
     override fun invoke(dto: EpisodeDTO): Episode {
         return with(dto) {
             Episode(
-                air_date = air_date,
+                airDate = airDate,
             characters = characters,
             created = created,
             episode = episode,

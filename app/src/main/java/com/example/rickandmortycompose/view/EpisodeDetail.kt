@@ -64,7 +64,7 @@ fun EpisodeDetail(
                 Column(modifier = Modifier.padding(start = 15.dp, end = 15.dp)) {
                     (Text(text = "Episode Title"))
                     Text(text = episodeData.data.name)
-                    Text(text = "First air date: ${episodeData.data.air_date}")
+                    Text(text = "First air date: ${episodeData.data.airDate}")
                     Row {
                     }
                     Button(onClick = { navigate() }) {

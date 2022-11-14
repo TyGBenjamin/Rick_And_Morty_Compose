@@ -2,7 +2,7 @@ package com.example.rickandmortycompose.model.entity
 
 @kotlinx.serialization.Serializable
 data class Episode(
-    val air_date: String,
+    val airDate: String,
     val characters: List<String>,
     val created: String,
     val episode: String,
